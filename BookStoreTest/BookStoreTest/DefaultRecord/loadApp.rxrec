@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4be9b22e-a44d-4181-842e-96f96a2fe207"
+mode="Global"
+rxversion="8.3">
+	<name>
+		loadApp
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="loadApp"
+	namespace="BookStoreTest.DefaultRecord">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				BookStore.exe
+			</filename>
+			<workingdir>
+				D:\Jenkyn\workspace\bookstore\BookStore\BookStore\bin\Debug
+			</workingdir>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="75d94595-ec29-41a3-8851-a79a51edea64"
+	name="BookStoreTestRepository"
+	relativepath="..\BookStoreTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="BookStoreTestRepository"
+		namespace="BookStoreTest">
+		</codegen>
+		<rootfolder
+		id="c676db04-1040-4c3f-8ad6-10e632151eda"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		loadApp.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

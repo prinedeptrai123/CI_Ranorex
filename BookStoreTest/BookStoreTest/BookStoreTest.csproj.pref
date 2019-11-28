@@ -1,4 +1,7 @@
 ﻿<Properties>
+  <Array name="active">
+    <Element value="LoginTest.rxtst" />
+  </Array>
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="LoginTest.rxtst" />
@@ -7,6 +10,7 @@
     <Element value="Recording1.rxrec" />
     <Element value="LoginRecord\enterUserName.rxrec" />
     <Element value="SearchBookTest.rxtst" />
+    <Element value="DefaultRecord\loadApp.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

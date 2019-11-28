@@ -5,3 +5,10 @@ D:\KHTNPJ\Ranorex\BookStoreTest\RanorexAutomationHelpers\bin\Debug\Ranorex.Repor
 D:\KHTNPJ\Ranorex\BookStoreTest\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
 D:\KHTNPJ\Ranorex\BookStoreTest\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
 D:\KHTNPJ\Ranorex\BookStoreTest\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.dll
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\RanorexAutomationHelpers\bin\Debug\Ranorex Automation Helpers.pdb
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\RanorexAutomationHelpers\bin\Debug\Ranorex.Core.Resolver.dll
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\RanorexAutomationHelpers\bin\Debug\Ranorex.ReportToPDF.exe
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.csprojResolveAssemblyReference.cache
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.dll
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\RanorexAutomationHelpers\obj\x86\Debug\Ranorex Automation Helpers.pdb

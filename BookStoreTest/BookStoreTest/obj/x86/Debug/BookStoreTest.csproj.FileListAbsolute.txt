@@ -14,3 +14,19 @@ D:\KHTNPJ\Ranorex\BookStoreTest\BookStoreTest\bin\Debug\Ranorex Automation Helpe
 D:\KHTNPJ\Ranorex\BookStoreTest\BookStoreTest\obj\x86\Debug\BookStoreTest.csprojResolveAssemblyReference.cache
 D:\KHTNPJ\Ranorex\BookStoreTest\BookStoreTest\obj\x86\Debug\BookStoreTest.exe
 D:\KHTNPJ\Ranorex\BookStoreTest\BookStoreTest\obj\x86\Debug\BookStoreTest.pdb
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\AddNewBook.rxtst
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\SearchBookTest.rxtst
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\BookStoreTest.rxsqc
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\BookStoreTest.rxtmg
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\LoginTest.rxtst
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\RepositoryImages\BookStoreTestRepositoryc676db04.rximgres
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\BookStoreTest.exe.config
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\BookStoreTest.exe
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\BookStoreTest.pdb
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\Ranorex Automation Helpers.dll
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\Ranorex.Core.Resolver.dll
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\Ranorex.ReportToPDF.exe
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\bin\Debug\Ranorex Automation Helpers.pdb
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\obj\x86\Debug\BookStoreTest.csprojResolveAssemblyReference.cache
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\obj\x86\Debug\BookStoreTest.exe
+D:\KHTNPJ\PTTK_QuanLyNhaSach\AutoMationTest\CI_Ranorex\BookStoreTest\BookStoreTest\obj\x86\Debug\BookStoreTest.pdb

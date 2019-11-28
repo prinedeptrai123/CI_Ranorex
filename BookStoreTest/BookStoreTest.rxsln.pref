@@ -13,6 +13,6 @@
       <string>9770e0e0-ac20-45c3-b33e-47bc3d3e25bc</string>
     </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution BookStoreTest[Solution Items[]BookStoreTest[DefaultRecord[]LoginRecord[]]Ranorex Automation Helpers[]]]&#xD;&#xA;Solution BookStoreTest\BookStoreTest\LoginTest.rxtst&#xD;&#xA;Solution BookStoreTest\BookStoreTest\LoginRecord" />
+  <ProjectBrowserState value="[Solution BookStoreTest[Solution Items[]BookStoreTest[DashBoard[]DefaultRecord[]]Ranorex Automation Helpers[]]]&#xD;&#xA;Solution BookStoreTest\BookStoreTest\LoginTest.rxtst&#xD;&#xA;Solution BookStoreTest" />
   <StartupProject value="{7A88094E-0650-4343-97DC-F2FE3DDB72BF}" />
 </Properties>
