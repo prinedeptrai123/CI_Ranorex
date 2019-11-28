@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{42077EEB-E995-4CD6-A82C-EB66AF7302DD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BookStore</RootNamespace>
+    <AssemblyName>BookStore</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.1.1345, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.2.5.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Controls, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SDK.Expression.Blend.1.0.0\lib\net45\Microsoft.Expression.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Drawing, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SDK.Expression.Blend.1.0.0\lib\net45\Microsoft.Expression.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Effects, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SDK.Expression.Blend.1.0.0\lib\net45\Microsoft.Expression.Effects.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Interactions, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SDK.Expression.Blend.1.0.0\lib\net45\Microsoft.Expression.Interactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Prototyping.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SDK.Expression.Blend.1.0.0\lib\net45\Microsoft.Expression.Prototyping.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Expression.Prototyping.SketchControls, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SDK.Expression.Blend.1.0.0\lib\net45\Microsoft.Expression.Prototyping.SketchControls.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SDK.Expression.Blend, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SDK.Expression.Blend.1.0.0\lib\net45\Microsoft.SDK.Expression.Blend.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SDK.Expression.Blend.1.0.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="BUS\AccountBUS.cs" />
+    <Compile Include="BUS\BillBUS.cs" />
+    <Compile Include="BUS\BookBUS.cs" />
+    <Compile Include="BUS\CategoryBUS.cs" />
+    <Compile Include="BUS\CompanyBUS.cs" />
+    <Compile Include="BUS\CustomerBUS.cs" />
+    <Compile Include="BUS\DiscountCodeBUS.cs" />
+    <Compile Include="BUS\EmployeeBUS.cs" />
+    <Compile Include="BUS\RegulationBUS.cs" />
+    <Compile Include="BUS\ReportBUS.cs" />
+    <Compile Include="BUS\SubCategoryBUS.cs" />
+    <Compile Include="BUS\WareHouseBUS.cs" />
+    <Compile Include="DAO\AccountDAO.cs" />
+    <Compile Include="DAO\Bill.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\BillDAO.cs" />
+    <Compile Include="DAO\Bill_Detail.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Bill_Type.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Book.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\BookDAO.cs" />
+    <Compile Include="DAO\Book_Inventory.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Category.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\CategoryDAO.cs" />
+    <Compile Include="DAO\Company.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\CompanyDAO.cs" />
+    <Compile Include="DAO\Customer.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\CustomerDAO.cs" />
+    <Compile Include="DAO\DiscountCodeDAO.cs" />
+    <Compile Include="DAO\Discount_Code.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Discount_Type.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Employee.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\EmployeeDAO.cs" />
+    <Compile Include="DAO\Employee_Account.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Model.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Model.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Model.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Page_Wage.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\Regulation.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\RegulationDAO.cs" />
+    <Compile Include="DAO\ReportDAO.cs" />
+    <Compile Include="DAO\Role.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\SubCategory.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\SubCategoryDAO.cs" />
+    <Compile Include="DAO\sysdiagram.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\WareHouse.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\WareHouseDAO.cs" />
+    <Compile Include="DAO\WareHouse_Detail.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DTO\CAccount.cs" />
+    <Compile Include="DTO\CBaseReceipt.cs" />
+    <Compile Include="DTO\CBill.cs" />
+    <Compile Include="DTO\CBillType.cs" />
+    <Compile Include="DTO\CBook.cs" />
+    <Compile Include="DTO\CBookReipt.cs" />
+    <Compile Include="DTO\CBookTransaction.cs" />
+    <Compile Include="DTO\CCart.cs" />
+    <Compile Include="DTO\CCategory.cs" />
+    <Compile Include="DTO\CCompany.cs" />
+    <Compile Include="DTO\CCustomer.cs" />
+    <Compile Include="DTO\CDiscountCode.cs" />
+    <Compile Include="DTO\CDiscountType.cs" />
+    <Compile Include="DTO\CEmployee.cs" />
+    <Compile Include="DTO\CEmployeeRole.cs" />
+    <Compile Include="DTO\CPeople.cs" />
+    <Compile Include="DTO\CReportDate.cs" />
+    <Compile Include="DTO\CReportMonth.cs" />
+    <Compile Include="DTO\CSubCategory.cs" />
+    <Compile Include="DTO\CWareHouseCart.cs" />
+    <Compile Include="DTO\Help.cs" />
+    <Compile Include="VIEW\AddNewBookWindow.xaml.cs">
+      <DependentUpon>AddNewBookWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\BindingProxy.cs" />
+    <Compile Include="VIEW\BookInfoPage.xaml.cs">
+      <DependentUpon>BookInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\BookMenuPage.xaml.cs">
+      <DependentUpon>BookMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ChangePasswordWindow.xaml.cs">
+      <DependentUpon>ChangePasswordWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ChartReportDatePage.xaml.cs">
+      <DependentUpon>ChartReportDatePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ChartReportMonthPage.xaml.cs">
+      <DependentUpon>ChartReportMonthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\CodePromotionPage.xaml.cs">
+      <DependentUpon>CodePromotionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\Converter\BoolToVisibilityConverter.cs" />
+    <Compile Include="VIEW\Converter\ProgessBarToVisibilityConverter.cs" />
+    <Compile Include="VIEW\Converter\PromotionToVisibilityConverter.cs" />
+    <Compile Include="VIEW\Converter\RestoreBoolToVisibilityConverter.cs" />
+    <Compile Include="VIEW\Converter\RoleToEnableConverter.cs" />
+    <Compile Include="VIEW\Converter\RoleToVisibility.cs" />
+    <Compile Include="VIEW\Converter\StatusExistToVisibility.cs" />
+    <Compile Include="VIEW\Converter\StatusIntToStringConverter.cs" />
+    <Compile Include="VIEW\Converter\StatusIntToVisibilityConverter.cs" />
+    <Compile Include="VIEW\CustomerInfoPage.xaml.cs">
+      <DependentUpon>CustomerInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\CustomerMenuPage.xaml.cs">
+      <DependentUpon>CustomerMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\DashboardWindow.xaml.cs">
+      <DependentUpon>DashboardWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\DetailBookWindow.xaml.cs">
+      <DependentUpon>DetailBookWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\DetailCustomerWindow.xaml.cs">
+      <DependentUpon>DetailCustomerWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\EmployeeInfoPage.xaml.cs">
+      <DependentUpon>EmployeeInfoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\GridViewBehaviours.cs" />
+    <Compile Include="VIEW\GridViewColumnVisibilityManager.cs" />
+    <Compile Include="VIEW\HistoryBillPage.xaml.cs">
+      <DependentUpon>HistoryBillPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\HistoryWareHousePage.xaml.cs">
+      <DependentUpon>HistoryWareHousePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\IncreaseBookWindow.xaml.cs">
+      <DependentUpon>IncreaseBookWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\MakeBillWindow.xaml.cs">
+      <DependentUpon>MakeBillWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ProductPage.xaml.cs">
+      <DependentUpon>ProductPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\PromotionMenuPage.xaml.cs">
+      <DependentUpon>PromotionMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ReportDatePage.xaml.cs">
+      <DependentUpon>ReportDatePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ReportMenuPage.xaml.cs">
+      <DependentUpon>ReportMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ReportMonthPage.xaml.cs">
+      <DependentUpon>ReportMonthPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\SellMenuPage.xaml.cs">
+      <DependentUpon>SellMenuPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\StructureBookPage.xaml.cs">
+      <DependentUpon>StructureBookPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\TypeAndThemsePage.xaml.cs">
+      <DependentUpon>TypeAndThemsePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\TypePromotionPage.xaml.cs">
+      <DependentUpon>TypePromotionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\UserControls\ControlBar.xaml.cs">
+      <DependentUpon>ControlBar.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="VIEW\ViewClass\StructBook.cs" />
+    <Compile Include="VIEW\ViewModels\AddNewBookWindowVM.cs" />
+    <Compile Include="VIEW\ViewModels\BaseViewModel.cs" />
+    <Compile Include="VIEW\ViewModels\BookInfoPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\BookMenuPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\ChangePassWordWindowVM.cs" />
+    <Compile Include="VIEW\ViewModels\CharReportMonthPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\ChartReportDatePageVM.cs" />
+    <Compile Include="VIEW\ViewModels\CodePromotionPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\ControlBarVM.cs" />
+    <Compile Include="VIEW\ViewModels\CustomerInfoPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\CustomerMenuPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\DashboardWindowVM.cs" />
+    <Compile Include="VIEW\ViewModels\DataTransfer.cs" />
+    <Compile Include="VIEW\ViewModels\DetailCustomerWindowVM.cs" />
+    <Compile Include="VIEW\ViewModels\DetailsBookWindowVM.cs" />
+    <Compile Include="VIEW\ViewModels\EmployeeInfoPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\HistoryBillPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\HistoryWareHousePageVM.cs" />
+    <Compile Include="VIEW\ViewModels\IncreaseBookWindowVM.cs" />
+    <Compile Include="VIEW\ViewModels\LoginWindowVM.cs" />
+    <Compile Include="VIEW\ViewModels\MakeBillWindowVM.cs" />
+    <Compile Include="VIEW\ViewModels\ProductPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\PromotionMenuPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\ReportDatePageVM.cs" />
+    <Compile Include="VIEW\ViewModels\ReportMenuPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\ReportMonthPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\SellMenuPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\StructureBookPageVM.cs" />
+    <Compile Include="VIEW\ViewModels\TypeAndThemePageVM.cs" />
+    <Compile Include="VIEW\ViewModels\TypeAndThemsePageVM.cs" />
+    <Compile Include="VIEW\ViewModels\TypePromotionPageVM.cs" />
+    <Page Include="VIEW\AddNewBookWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\BookInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\BookMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\ChangePasswordWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\ChartReportDatePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\ChartReportMonthPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\CodePromotionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\CustomerInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\CustomerMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\DashboardWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\DetailBookWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\DetailCustomerWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\EmployeeInfoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\HistoryBillPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\HistoryWareHousePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\IncreaseBookWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VIEW\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="VIEW\MakeBillWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\ProductPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\PromotionMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\ReportDatePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\ReportMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\ReportMonthPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\ResourceXAML\MainResource.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\SellMenuPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\StructureBookPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\TypeAndThemsePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\TypePromotionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="VIEW\UserControls\ControlBar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EntityDeploy Include="DAO\Model.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DAO\Model.edmx.diagram">
+      <DependentUpon>Model.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DAO\Model.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model.Context.cs</LastGenOutput>
+      <DependentUpon>Model.edmx</DependentUpon>
+    </Content>
+    <Content Include="DAO\Model.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model.edmx</DependentUpon>
+      <LastGenOutput>Model.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Avatar.png" />
+    <Resource Include="Images\Blue.jpg" />
+    <Resource Include="Images\harry.jpg" />
+    <Resource Include="Images\icon.png" />
+    <Resource Include="Images\WindowBackground.jpg" />
+    <Resource Include="Images\image-1.png" />
+    <Resource Include="Images\epi_x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

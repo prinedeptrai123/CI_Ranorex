@@ -1,0 +1,33 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:viewmodel="clr-namespace:BookStore.VIEW.ViewModels"
+                    xmlns:local="clr-namespace:BookStore.VIEW.ResourceXAML">
+
+    <viewmodel:LoginWindowVM x:Key="LoginWindowVM"></viewmodel:LoginWindowVM>
+    <viewmodel:DashboardWindowVM x:Key="DashboardWindowVM"></viewmodel:DashboardWindowVM>
+    <viewmodel:SellMenuPageVM x:Key="SellMenuPageVM"></viewmodel:SellMenuPageVM>
+    <viewmodel:ProductPageVM x:Key="ProductPageVM"></viewmodel:ProductPageVM>
+    <viewmodel:BookMenuPageVM x:Key="BookMenuPageVM"></viewmodel:BookMenuPageVM>
+    <viewmodel:BookInfoPageVM x:Key="BookInfoPageVM"></viewmodel:BookInfoPageVM>
+    <viewmodel:TypeAndThemsePageVM x:Key="TypeAndThemsePageVM"></viewmodel:TypeAndThemsePageVM>
+    <viewmodel:AddNewBookWindowVM x:Key="AddNewBookWindowVM"></viewmodel:AddNewBookWindowVM>
+    <viewmodel:TypeAndThemePageVM x:Key="TypeAndThemePageVM"></viewmodel:TypeAndThemePageVM>
+    <viewmodel:HistoryWareHousePageVM x:Key="HistoryWareHousePageVM"></viewmodel:HistoryWareHousePageVM>
+    <viewmodel:StructureBookPageVM x:Key="StructureBookPageVM"></viewmodel:StructureBookPageVM>
+    <viewmodel:MakeBillWindowVM x:Key="MakeBillWindowVM"></viewmodel:MakeBillWindowVM>
+    <viewmodel:HistoryBillPageVM x:Key="HistoryBillPageVM"></viewmodel:HistoryBillPageVM>
+    <viewmodel:ReportMonthPageVM x:Key="ReportMonthPageVM"></viewmodel:ReportMonthPageVM>
+    <viewmodel:ReportMenuPageVM x:Key="ReportMenuPageVM"></viewmodel:ReportMenuPageVM>
+    <viewmodel:ReportDatePageVM x:Key="ReportDatePageVM"></viewmodel:ReportDatePageVM>
+    <viewmodel:CharReportMonthPageVM x:Key="CharReportMonthPageVM"></viewmodel:CharReportMonthPageVM>
+    <viewmodel:ChartReportDatePageVM x:Key="ChartReportDatePageVM"></viewmodel:ChartReportDatePageVM>
+    <viewmodel:CodePromotionPageVM x:Key="CodePromotionPageVM"></viewmodel:CodePromotionPageVM>
+    <viewmodel:PromotionMenuPageVM x:Key="PromotionMenuPageVM"></viewmodel:PromotionMenuPageVM>
+    <viewmodel:TypePromotionPageVM x:Key="TypePromotionPageVM"></viewmodel:TypePromotionPageVM>
+    <viewmodel:CustomerMenuPageVM x:Key="CustomerMenuPageVM"></viewmodel:CustomerMenuPageVM>
+    <viewmodel:CustomerInfoPageVM x:Key="CustomerInfoPageVM"></viewmodel:CustomerInfoPageVM>
+    <viewmodel:EmployeeInfoPageVM x:Key="EmployeeInfoPageVM"></viewmodel:EmployeeInfoPageVM>
+    <viewmodel:ChangePassWordWindowVM x:Key="ChangePassWordWindowVM"></viewmodel:ChangePassWordWindowVM>
+    <viewmodel:IncreaseBookWindowVM x:Key="IncreaseBookWindowVM"></viewmodel:IncreaseBookWindowVM>
+
+</ResourceDictionary>
