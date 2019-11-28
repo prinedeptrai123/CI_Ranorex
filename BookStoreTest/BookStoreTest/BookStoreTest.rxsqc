@@ -1,0 +1,17 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "LoginTest",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "SearchBookTest",
+    "RunConfig": "Default"
+  },
+  {
+    "Enabled": "False",
+    "TestSuite": "AddNewBook",
+    "RunConfig": "Default"
+  }
+]

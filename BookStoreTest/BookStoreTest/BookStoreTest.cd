@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="BookStoreTest.BookStoreTestRepository" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="3.301901" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.BookStoreTestRepositoryFolders" Collapsed="False">
+    <Position X="0.5" Y="3.5" Width="4.09526" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.baseRecord" Collapsed="False">
+    <Position X="0.5" Y="17" Width="2.096545" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.DefaultRecord.CloseAUT" Collapsed="False">
+    <Position X="0.5" Y="19.9" Width="2.096545" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.Recording1" Collapsed="False">
+    <Position X="0.5" Y="22.6" Width="2.096545" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.Program" Collapsed="False">
+    <Position X="0.5" Y="25.3" Width="1.029215" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.resetUserName" Collapsed="False">
+    <Position X="0.5" Y="26.7" Width="2.164704" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.enterUserName" Collapsed="False">
+    <Position X="0.5" Y="29.4" Width="2.177379" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.resetPassword" Collapsed="False">
+    <Position X="0.5" Y="32.5" Width="2.096545" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.enterPassword" Collapsed="False">
+    <Position X="0.5" Y="35.2" Width="2.096545" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.clickLogin" Collapsed="False">
+    <Position X="0.5" Y="38.3" Width="2.096545" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.validateErrorMess" Collapsed="False">
+    <Position X="0.5" Y="41" Width="2.406725" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.validateErrorMess_2" Collapsed="False">
+    <Position X="0.5" Y="43.9" Width="2.65777" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.validateErrorMess_3" Collapsed="False">
+    <Position X="0.5" Y="46.8" Width="2.65777" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.LoginRecord.ValidateButtonEnable" Collapsed="False">
+    <Position X="0.5" Y="49.7" Width="2.761647" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.DefaultRecord.StartAUT" Collapsed="False">
+    <Position X="0.5" Y="52.8" Width="2.096545" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="BookStoreTest.DashBoard.CloseDashBoard" Collapsed="False">
+    <Position X="0.5" Y="55.5" Width="2.292428" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+</ClassDiagram>

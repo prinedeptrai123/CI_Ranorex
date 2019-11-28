@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9be555b9-cbb6-4b59-8933-32f66ee2ab46"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		validateSucess
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="validateSucess"
+	namespace="BookStoreTest.addBookRecord">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5ba9e367-061d-4094-83a0-7dfbaf01fdfb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7850d7de-78f5-4bd3-89ad-1e9c137519ff"
+			sourcename="ElementTree">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="2"
+				prefcap="text"
+				rect="933,525,110,21"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+						Nh&#7853;p th&#224;nh c&#244;ng
+					</attribute>
+					<attribute
+					name="selectionlength"
+					type="System.Int32">
+						-7329240
+					</attribute>
+					<attribute
+					name="selectionstart"
+					type="System.Int32">
+						7329344
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Nh&#7853;p th&#224;nh c&#244;ng
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Static
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						65535
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						5639756
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						14040
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						BookStore
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						Nh&#7853;p th&#224;nh c&#244;ng
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+						Nh&#7853;p th&#224;nh c&#244;ng
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						StaticText
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@processname='BookStore']/text[@controlid='65535']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="48af7531-b664-4aa9-af8e-2e1ec36fc4b4">
+				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
+ilooATFGKWigBMUYpaKAExS0UUAFFFFAH//Z
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Nh&#7853;p th&#224;nh c&#244;ng
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="75d94595-ec29-41a3-8851-a79a51edea64"
+	name="BookStoreTestRepository"
+	relativepath="..\BookStoreTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="BookStoreTestRepository"
+		namespace="BookStoreTest">
+		</codegen>
+		<rootfolder
+		id="c676db04-1040-4c3f-8ad6-10e632151eda"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		validateSucess.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="LoginTest.rxtst" />
+    <Element value="LoginRecord\clickLogin.rxrec" />
+    <Element value="LoginRecord\enterPassword.rxrec" />
+    <Element value="Recording1.rxrec" />
+    <Element value="LoginRecord\enterUserName.rxrec" />
+    <Element value="SearchBookTest.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

@@ -1,0 +1,672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4b55edac-e1b0-4c89-a132-1280ff2d03fe"
+mode="Desktop"
+rxversion="8.3">
+	<name>
+		clickButtonInput
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="clickButtonInput"
+	namespace="BookStoreTest.addBookRecord">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="13;17"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="bc8c278d-5994-4cda-8a33-540f868be726"
+		sx="1403"
+		sy="489"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="bea66fb8-4515-46a3-92d5-d11bab30d942"
+			sourcename="Recorder">
+				<element
+				capabilities="wpfelement"
+				dontcache="False"
+				enabled="True"
+				flavor="wpf"
+				hasfocus="False"
+				index="0"
+				prefcap="container"
+				rect="1390,472,125,37"
+				role="container"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="caption"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_acceleratorkey"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_accesskey"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_helptext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_iscolumnheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="automationproperties_isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="automationproperties_isrowheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="automationproperties_itemstatus"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_itemtype"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="automationproperties_name"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.Canvas
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						System.Windows.Controls.Canvas
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						Canvas
+					</attribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.ActualHeight property of type Double."
+					name="ActualHeight"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.ActualWidth property of type Double."
+					name="ActualWidth"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.AllowDrop property of type Boolean."
+					name="AllowDrop"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Background property of type Brush."
+					name="Background"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.BindingGroup property of type BindingGroup."
+					name="BindingGroup"
+					readonly="False"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.BitmapEffect property of type BitmapEffect."
+					name="BitmapEffect"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.BitmapEffectInput property of type BitmapEffectInput."
+					name="BitmapEffectInput"
+					readonly="False"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Bottom property of type Double."
+					name="Bottom"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.CacheMode property of type CacheMode."
+					name="CacheMode"
+					readonly="False"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Clip property of type Geometry."
+					name="Clip"
+					readonly="False"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.ClipToBounds property of type Boolean."
+					name="ClipToBounds"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.ContextMenu property of type ContextMenu."
+					name="ContextMenu"
+					readonly="False"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.DataContext property of type Object."
+					name="DataContext"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Effect property of type Effect."
+					name="Effect"
+					readonly="False"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.FlowDirection property of type FlowDirection."
+					name="FlowDirection"
+					readonly="False"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Focusable property of type Boolean."
+					name="Focusable"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.ForceCursor property of type Boolean."
+					name="ForceCursor"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Height property of type Double."
+					name="Height"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.HorizontalAlignment property of type HorizontalAlignment."
+					name="HorizontalAlignment"
+					readonly="False"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.IsHitTestVisible property of type Boolean."
+					name="IsHitTestVisible"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.IsItemsHost property of type Boolean."
+					name="IsItemsHost"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.IsManipulationEnabled property of type Boolean."
+					name="IsManipulationEnabled"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.LayoutTransform property of type Transform."
+					name="LayoutTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Left property of type Double."
+					name="Left"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.MaxHeight property of type Double."
+					name="MaxHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.MaxWidth property of type Double."
+					name="MaxWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.MinHeight property of type Double."
+					name="MinHeight"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.MinWidth property of type Double."
+					name="MinWidth"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Opacity property of type Double."
+					name="Opacity"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.OpacityMask property of type Brush."
+					name="OpacityMask"
+					readonly="False"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.OverridesDefaultStyle property of type Boolean."
+					name="OverridesDefaultStyle"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.RenderTransform property of type Transform."
+					name="RenderTransform"
+					readonly="False"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.RenderTransformOrigin property of type Point."
+					name="RenderTransformOrigin"
+					readonly="False"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Right property of type Double."
+					name="Right"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.SnapsToDevicePixels property of type Boolean."
+					name="SnapsToDevicePixels"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Tag property of type Object."
+					name="Tag"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.ToolTip property of type Object."
+					name="ToolTip"
+					readonly="False"
+					type="System.Object">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Top property of type Double."
+					name="Top"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Uid property of type String."
+					name="Uid"
+					readonly="False"
+					type="System.String"
+					weight="150">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.UseLayoutRounding property of type Boolean."
+					name="UseLayoutRounding"
+					readonly="False"
+					type="System.Boolean">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.VerticalAlignment property of type VerticalAlignment."
+					name="VerticalAlignment"
+					readonly="False"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Visibility property of type Visibility."
+					name="Visibility"
+					readonly="False"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.Width property of type Double."
+					name="Width"
+					readonly="False"
+					type="System.Double">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The WPF System.Windows.Controls.Canvas.ZIndex property of type Int32."
+					name="ZIndex"
+					readonly="False"
+					type="System.Int32">
+					</dynamicattribute>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.Canvas.GetBottom method."
+					displayName="GetBottom">
+						<argument
+						description="A method argument of type UIElement."
+						displayName="element"
+						type="System.Windows.UIElement, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Double">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.Canvas.GetLeft method."
+					displayName="GetLeft">
+						<argument
+						description="A method argument of type UIElement."
+						displayName="element"
+						type="System.Windows.UIElement, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Double">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.Canvas.GetRight method."
+					displayName="GetRight">
+						<argument
+						description="A method argument of type UIElement."
+						displayName="element"
+						type="System.Windows.UIElement, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Double">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.Canvas.GetTop method."
+					displayName="GetTop">
+						<argument
+						description="A method argument of type UIElement."
+						displayName="element"
+						type="System.Windows.UIElement, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Double">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.Canvas.SetBottom method."
+					displayName="SetBottom">
+						<argument
+						description="A method argument of type UIElement."
+						displayName="element"
+						type="System.Windows.UIElement, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="length"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.Canvas.SetLeft method."
+					displayName="SetLeft">
+						<argument
+						description="A method argument of type UIElement."
+						displayName="element"
+						type="System.Windows.UIElement, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="length"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.Canvas.SetRight method."
+					displayName="SetRight">
+						<argument
+						description="A method argument of type UIElement."
+						displayName="element"
+						type="System.Windows.UIElement, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="length"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+					<dynamicaction
+					description="The WPF System.Windows.Controls.Canvas.SetTop method."
+					displayName="SetTop">
+						<argument
+						description="A method argument of type UIElement."
+						displayName="element"
+						type="System.Windows.UIElement, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						</argument>
+						<argument
+						description="A method argument of type Double."
+						displayName="length"
+						type="System.Double">
+						</argument>
+						<returns
+						description="Return value."
+						displayName="returns"
+						type="System.Void">
+						</returns>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@processname='BookStore']//container/container[2]/container[2]/container[3]/button[@text='Nh&#7853;p s&#225;ch']//container[@caption='']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="da1db6f3-3835-4e48-bd63-b00ea9e72c22">
+				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
+HMb8sTnnNXagtbdbcOEJ2k5APap6TGgooopDCiiigAooooAKhh+7U1Qw/doAlooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAqlD95/99v8A0I1dqlD95/8Afb/0
+I0AWlp4pi08UALRRRQAUUUUAFFFFABRRRQBSgs4UjRgu44ByTVoDGPpTY/8AVrxggAU7vQAAcmlo
+zSZoArEXO9tgTaCcFiealRGH+sKsRyMA8fmTT+e9LTEOWlpFpaQwooooAKKKKACiiigAqGH7tTVD
+D92gCWiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACqUP3n/
+AN9v/QjV2qUP3n/32/8AQjQBaWnimLTxQAtFFFABRRRQAUUUUAFFFFADKKhig8vzDwGdiSR16nHP
+0NPyIYiXYkLnnknHb3JpiHbgRkHvilqt5DNGmyQFfM3+xBcN/L+dWaACiiigY5aWkXpS0gCiiigA
+ooooAKKKKACoYfu1NUMP3aAJaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKK
+ACiiigAooooAKpQ/ef8A32/9CNXapQ/ef/fb/wBCNAFpaeKYtPFAC0UUUAFFFFABRRRQAUUUUAVA
+7m5mzlViX5fRsjP6Y/WkmOYZVYnl1QH0ztGR+JzUeWN1dKoyXUge2FXA/wDHjTi4l5jAdZJQQc8E
+BQc/mKZI8yF4oPLOwSgYIA44z39hUls5ktYnY5LICT65FQKw2WvYJKyf98qw/pU9quy0hT+6ij9K
+BklFFFAxy0tItLSAKKKKACiiigAooooAKhh+7U1Qw/doAlooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAqlD95/99v/AEI1dqlD95/99v8A0I0AWlp4pi08UALR
+RRQAUUUUAFFFFABRRRQBV+0wqhlxwWIJAz268deB+lTRusqB16cjkYqP7PEV2sGYAk/M5PUY7n0J
+qRVCjCjAyT+JOTTELtXjgcHI470tFFABSUtJQMctLSLS0gCiiigAooooAKKKKACoYfu1NUMP3aAJ
+aKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKpQ/ef8A32/9
+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
+UVZAUUUUAFFFFABVKH7z/wC+3/oRq7VKH7z/AO+3/oRoAtLTxTFp4oAWiiigAooooAKKKKACiiig
+Bm8UbxT6KAGbxRvFPooAZvFG8U+igBm8UbxT6KAGbxRvFPooAZvFG8U+igBm8UbxT6KAGbxRvFPo
+oAZvFJvFSUUAR7lrPuYri3n8/TtuHOZoieGPqPQ+vI6VqUUAZs1zqEgCW9uImPV5SuB+RP8AKp7K
+EW9sqOQ0h+aRv7zHqf8APbFW6KAI9y0blqSigCPctG5akooAj3LRuWpKKAI9y0blqSigCPctG5ak
+ooAj3LS7xT6KAGbxRvFPooAZvFG8U+igBm8UoOadTJDhl96AHVSh+8/++3/oRq4Kpw/ef/fb/wBC
+NAFpaeKYtPFAC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABUU330/Gpaim++n40
+APHSqcP3n/32/wDQjVwdKpw/ef8A32/9CNAFpaeKYtPFAC0UUUAFFFFABRRRQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABUU330/Gpaim++n40APHSqcP3n/32/8AQjVwdKpw/ef/AH2/9CNAFpaeKYtP
+FAC0UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFF
+ABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABUU330/Gpaim++n40APHSqcP3n/
+AN9v/QjVwdKpw/ef/fb/ANCNAFpaeKYtPFAC0UUUAFFFFABRRRQAUUUUAM81aPNWoaKAJvNWjzVq
+GigCbzVo81ahooAm81aPNWoaKAJvNWjzVqGigCbzVo81ahooAm81aPNWoaKAJvNWjzVqGigCbzVo
+81ahooAm81aPNWoaKAJvNWjzVqGigCbzVo81ahooAm81aPNWoaKAJvNWjzVqGigCbzVo81ahooAm
+81aPNWoaKAJvNWjzVqGigCbzVo81ahooAm81aPNWoaKAJvNWmOwZ1x2zTKB94UATjpVOH7z/AO+3
+/oRq4OlU4fvP/vt/6EaALS08UxaeKAFooooAKKKKACiiigAooooArUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUU
+UAFA+8KKB94UATjpVOH7z/77f+hGrg6VTh+8/wDvt/6EaALS08UxaeKAFooooAKKKKACiiigAooo
+oArUU/y29KPLb0oAZRT/AC29KPLb0oAZRT/Lb0o8tvSgBlFP8tvSjy29KAGUU/y29KPLb0oAZRT/
+AC29KPLb0oAZRT/Lb0o8tvSgBlFP8tvSjy29KAGUU/y29KPLb0oAZRT/AC29KPLb0oAZRT/Lb0o8
+tvSgBlFP8tvSjy29KAGUU/y29KPLb0oAZRT/AC29KPLb0oAZRT/Lb0o8tvSgBlFP8tvSjy29KAGU
+U/y29KPLb0oAZRT/AC29KPLb0oAZRT/Lb0o8tvSgBlA+8Kf5belNKlWXNAEw6VTh+8/++3/oRq4O
+lZPmATSjzdv7xuN3uaAuai08VmrKP+e//j9PEo/5+P8Ax+gV0aFFZ/mj/n4/8fo80f8APx/4/QF0
+aFFZ/mj/AJ+P/H6PNH/Px/4/QF0aFFZ/mj/n4/8AH6PNH/Px/wCP0BdGhRWf5o/5+P8Ax+igLo0K
+KKKBhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUU
+UUAFFFFABRRRQAUUUUAFFFFABUU330/Gpaim++n40APHSucm/wCPqf8A66N/M10Y6Vzsw/0qb/ro
+38zSclHcTpSq6REFOoAp2BU+1RH1Cr3QlFLgUYFHtYh9Qq90JRS4FGBR7WIfUKvdCUUuBRgUe1iH
+1Cr3QlFLgUUe1iH1Cr3R0NFFFWaBRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABUU330/Gpaim++n40APHSsCdGW4lY
+jhpGwfxNb46VjXfQ/wDXV/5momtDai7SIljkK7gjEeuKWNGkYKgyT2q2shldWgmCsB/q24FEKfec
+wsXLYbDbQPpzWXLqdSqO2pUYFWIPUUscbyEhBkgZNW2t4ommdgWRMYXPrTrbyTKWjBGYzuX0pcvc
+bqaXRQpQMkDOPc1YlSJrUSxpsIbaRnNPtmQWk2Y84xnnrRylOel7EBtpRuwhYDuOaiq7siieOF1Z
+mYcsGIxmkaKKGEs6FyHK/exmm4kqp3KdFT3caxSgIMKVBx6UVDVjRO6ubNFFFdZ5QUUUUAFFFFAB
+RRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFF
+FFABRRRQAVFN99PxqWopvvp+NADx0rDuJcyugBBWVufxNbg6Vzsp/wBKm/66N/M1E9jaglzalpbp
+C4kaEGQfxbsfpThdBk2yxB8NuHOKqAj1pwI9ax5mdihEttd7pHLR5RwAVzSC7Ct8sQChSoANVsj1
+oyPWi7DkiS+b/oxh2/xbs5pYZhGrqyb1fqM4qHI9aMj1pXZVo2sWRdD5S8QZ0GA2aZJcGSHYw537
+ic1DketGR60XYuWKJbibznDbduFx1zRUWR60UPUpWSsjoKKKK6jygooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAqKb
+76fjUtRTffT8aAHjpXNToDdz/wDXVv5mulHSsRrYPPK2TzI38zQZ1IuS0KojFL5Y9KuLZj1NPFkP
+U07mHsplHy19KPLX0q/9iHqaPsQ9TRcXsplDy19KPLX0q/8AYh6mj7EPU0XD2Uyh5a+lHlr6Vf8A
+sQ9TR9iHqaLh7KZQ8tfSir/2IepoouHspmtRRRSOwKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKim++n40UUAPHSs
+xf8AWSf9dG/9CNFFAEy1IKKKACiiigAooooAKKKKACiiigD/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="75d94595-ec29-41a3-8851-a79a51edea64"
+	name="BookStoreTestRepository"
+	relativepath="..\BookStoreTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="BookStoreTestRepository"
+		namespace="BookStoreTest">
+		</codegen>
+		<rootfolder
+		id="c676db04-1040-4c3f-8ad6-10e632151eda"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		clickButtonInput.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

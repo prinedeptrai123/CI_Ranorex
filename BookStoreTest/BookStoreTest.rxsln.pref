@@ -1,0 +1,18 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{7A88094E-0650-4343-97DC-F2FE3DDB72BF}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>b84ec08f-29a3-4c7b-85ff-2769267504fb</string>
+      <string>c8ba114c-c309-40cd-a29a-b353634ea18c</string>
+      <string>7e643def-aad4-4b82-a2f4-7479551c0035</string>
+      <string>2e5b28d7-4e69-439d-abd2-51c00fd0e4ad</string>
+      <string>9770e0e0-ac20-45c3-b33e-47bc3d3e25bc</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution BookStoreTest[Solution Items[]BookStoreTest[DefaultRecord[]LoginRecord[]]Ranorex Automation Helpers[]]]&#xD;&#xA;Solution BookStoreTest\BookStoreTest\LoginTest.rxtst&#xD;&#xA;Solution BookStoreTest\BookStoreTest\LoginRecord" />
+  <StartupProject value="{7A88094E-0650-4343-97DC-F2FE3DDB72BF}" />
+</Properties>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b9de310c-e053-4ce2-91f8-ea0408c3d2e2"
+mode="Global"
+rxversion="8.3">
+	<name>
+		CloseDashBoard
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseDashBoard"
+	namespace="BookStoreTest.DashBoard">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="19;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c38d92b4-0c9a-4854-98c0-d1d209c46673"
+		sx="1722"
+		sy="47"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="31fab4ff-b418-4016-a854-e50d1c2e9328"
+			sourcename="Recorder">
+				<element
+				capabilities="uiautomation, uiautomationinvoke"
+				dontcache="False"
+				enabled="True"
+				flavor="uia"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="1703,39,27,27"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="classname"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controltype"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="frameworkid"
+					type="System.String">
+						WPF
+					</attribute>
+					<attribute
+					name="helptext"
+					type="System.String">
+						Tho&#225;t
+					</attribute>
+					<attribute
+					name="iscontentelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iscontrolelement"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="iskeyboardfocusable"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="ispassword"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="isrequiredforform"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="localizedcontroltype"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="orientation"
+					type="System.Windows.Automation.OrientationType, UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+						None
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						13232
+					</attribute>
+				</element>
+				<path>
+					/form[@processname='BookStore']/?/?/button[@helptext='Tho&#225;t']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="0834a403-b4d3-48be-928b-3144675e9fbe">
+				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
+bjqKKK0JCiiigAooooAKKKKAP//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="75d94595-ec29-41a3-8851-a79a51edea64"
+	name="BookStoreTestRepository"
+	relativepath="..\BookStoreTestRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="BookStoreTestRepository"
+		namespace="BookStoreTest">
+		</codegen>
+		<rootfolder
+		id="c676db04-1040-4c3f-8ad6-10e632151eda"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseDashBoard.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
