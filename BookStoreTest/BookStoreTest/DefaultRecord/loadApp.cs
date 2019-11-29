@@ -73,15 +73,14 @@ namespace BookStoreTest.DefaultRecord
         [System.CodeDom.Compiler.GeneratedCode("Ranorex", "8.3")]
         void ITestModule.Run()
         {
-            Mouse.DefaultMoveTime = 300;
-            Keyboard.DefaultKeyPressTime = 100;
-            Delay.SpeedFactor = 1.00;
+            Mouse.DefaultMoveTime = 0;
+            Keyboard.DefaultKeyPressTime = 20;
+            Delay.SpeedFactor = 0.00;
 
             Init();
 
             Report.Log(ReportLevel.Info, "Application", "Run application 'BookStore.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
             Host.Local.RunApplication("BookStore.exe", "", "../../../../BookStore/BookStore/bin/Debug", false);
-            Delay.Milliseconds(0);
             
         }
 

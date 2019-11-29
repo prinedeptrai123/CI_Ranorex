@@ -5,7 +5,7 @@
     "RunConfig": "TestRun"
   },
   {
-    "Enabled": "False",
+    "Enabled": "True",
     "TestSuite": "SearchBookTest",
     "RunConfig": "Default"
   },

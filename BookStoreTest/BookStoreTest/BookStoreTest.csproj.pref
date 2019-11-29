@@ -1,11 +1,11 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="LoginTest.rxtst" />
+    <Element value="DefaultRecord\loadApp.rxrec" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
-    <Element value="BookStoreTest.rxsqc" />
     <Element value="LoginTest.rxtst" />
+    <Element value="BookStoreTest.rxsqc" />
     <Element value="SearchBookTest.rxtst" />
     <Element value="DefaultRecord\loadApp.rxrec" />
     <Element value="LoginRecord\clickLogin.rxrec" />
