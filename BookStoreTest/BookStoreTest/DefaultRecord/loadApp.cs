@@ -80,7 +80,7 @@ namespace BookStoreTest.DefaultRecord
             Init();
 
             Report.Log(ReportLevel.Info, "Application", "Run application 'BookStore.exe' with arguments '' in normal mode.", new RecordItemIndex(0));
-            Host.Local.RunApplication("BookStore.exe", "", "D:\\Jenkyn\\workspace\\bookstore\\BookStore\\BookStore\\bin\\Debug", false);
+            Host.Local.RunApplication("BookStore.exe", "", "../../../../BookStore/BookStore/bin/Debug", false);
             Delay.Milliseconds(0);
             
         }

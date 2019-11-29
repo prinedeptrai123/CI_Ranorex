@@ -4,13 +4,14 @@
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="BookStoreTest.rxsqc" />
     <Element value="LoginTest.rxtst" />
+    <Element value="SearchBookTest.rxtst" />
+    <Element value="DefaultRecord\loadApp.rxrec" />
     <Element value="LoginRecord\clickLogin.rxrec" />
     <Element value="LoginRecord\enterPassword.rxrec" />
     <Element value="Recording1.rxrec" />
     <Element value="LoginRecord\enterUserName.rxrec" />
-    <Element value="SearchBookTest.rxtst" />
-    <Element value="DefaultRecord\loadApp.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

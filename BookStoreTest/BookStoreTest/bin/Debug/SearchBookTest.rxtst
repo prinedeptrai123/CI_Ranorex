@@ -51,6 +51,7 @@ rxversion="8.3">
 				</databinding>
 			</testmodule>
 			<testmodule
+			enabled="False"
 			id="2aef993d-d035-4569-9726-2e3cb549bec6"
 			name="StartAUT"
 			ref="155d125b-6c56-4df3-a76a-89b1e13221d4"
@@ -98,6 +99,12 @@ rxversion="8.3">
 			reportwriteinterval="30000ms"
 			showinvisiblechars="True">
 			</testsuite>
+			<testmodule
+			id="60d5a7e1-955c-4569-aa4c-80a43744455c"
+			name="loadApp"
+			ref="4be9b22e-a44d-4181-842e-96f96a2fe207"
+			type="Recording">
+			</testmodule>
 			<testmodule
 			id="6109b3ba-70ce-4f99-86ce-6a6ff931c4f4"
 			name="validateImageBook"
@@ -251,6 +258,10 @@ rxversion="8.3">
 						id="2aef993d-d035-4569-9726-2e3cb549bec6"
 						name="StartAUT">
 						</testmodule>
+						<testmodule
+						id="60d5a7e1-955c-4569-aa4c-80a43744455c"
+						name="loadApp">
+						</testmodule>
 						<modulegroup
 						id="333454b5-a690-4d77-b6ba-79fd773bc255"
 						name="ModuleGroup">
@@ -341,7 +352,7 @@ rxversion="8.3">
 		filename="D:\KHTNPJ\Ranorex\BookStoreTest\data_search.xlsx"
 		id="5da62fa3-0789-42ff-a8cc-af12695b7b1f"
 		includefile="Unchecked"
-		lastknownrowcount="11"
+		lastknownrowcount="10"
 		name="SearchKeyConnector"
 		type="Ranorex.Core.Data.ExcelDataConnector"
 		worksheetname="Sheet1"
@@ -354,7 +365,13 @@ rxversion="8.3">
 					role
 				</column>
 				<column>
-					note
+					K&#7871;t qu&#7843;
+				</column>
+				<column>
+					M&#7909;c &#273;&#237;ch
+				</column>
+				<column>
+					Column5
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>
